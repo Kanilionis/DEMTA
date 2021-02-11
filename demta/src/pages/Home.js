@@ -4,11 +4,7 @@ import Footer from "../components/Footer/Footer"
 function Home() {
   return (
     <>
-    <div className="container-fluid">
-      <div className="home jumbotron-fluid">
-  
-
-    <h1 className="float-right display-3">DEMTA</h1>
+  <div className="welcome">
     <h2>WELCOME! </h2>
     <h3>DEMTA was named "Local Association Of The Year" at the 2017 CSMTA convention.   </h3>
       
@@ -21,8 +17,7 @@ function Home() {
 
     <p>New members who wish to participate in Festival must join DEMTA by January 31st.</p>
 
-</div>
-</div>
+  </div>
 <Footer/>
     </>
   )

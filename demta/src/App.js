@@ -10,6 +10,7 @@ import Festival from "./pages/Festival"
 import Forms from "./pages/Forms"
 import Contact from "./pages/Contact"
 import Teachers from "./pages/Teachers"
+import Header from "./components/Header/Header"
 
 
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <Router>
       <div>
+        <Header/>
         <NavTabs />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />

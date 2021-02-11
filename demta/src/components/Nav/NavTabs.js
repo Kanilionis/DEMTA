@@ -1,12 +1,19 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import "./nav.css"
+import { Navbar, Nav } from "react-bootstrap"
 
 function NavTabs() {
  
   const location = useLocation();
 
   return (
-    <ul className="nav nav-tabs">
+    <>
+    <Navbar expand="lg" className="nav-bar container-fluid">
+    <Navbar.Toggle ariaControls="basic-navbar-nav"/>
+    <Navbar.Collapse id="navbar">
+      <Nav className="nav-wrapper col-sm-1 col-md-12 col-lg-12" id="menu">
+      <ul id="navbar" className="nav">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
@@ -77,6 +84,17 @@ function NavTabs() {
         </Link>
       </li>
     </ul>
+      </Nav>
+    </Navbar.Collapse>
+
+    </Navbar>
+
+
+
+
+
+    
+    </>
   );
 }
 

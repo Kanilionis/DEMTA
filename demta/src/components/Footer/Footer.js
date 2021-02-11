@@ -4,7 +4,7 @@ import "./footer.css"
 function Footer() {
   return(
     <>
-    <span className="footer">DEMTA is a non-profit, 501c3 organization.</span>
+    <div className="footer">DEMTA is a non-profit, 501c3 organization.</div>
     </>
   )
 }
