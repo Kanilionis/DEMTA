@@ -1,9 +1,11 @@
 import React from "react"
 import Footer from "../components/Footer/Footer"
+import Links from "../components/Links/Links"
 
 function Home() {
   return (
     <>
+    <Links/>
   <div className="welcome">
     <h2>WELCOME! </h2>
     <h3>DEMTA was named "Local Association Of The Year" at the 2017 CSMTA convention.   </h3>
