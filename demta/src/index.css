@@ -1,0 +1,28 @@
+.about-list{
+  list-style: none;
+}
+
+.about-note{
+  text-align: center;
+}
+
+.about-text{
+  margin-left: 180px
+}
+
+.links-column{
+  height: 100%
+}
+
+.welcome{
+  text-align: center;
+  margin-top: 40px
+}
+
+.benefits{
+  margin-left: 20px
+}
+
+.membership{
+  margin-left: 180px
+}

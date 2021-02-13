@@ -11,15 +11,21 @@ import Forms from "./pages/Forms"
 import Contact from "./pages/Contact"
 import Teachers from "./pages/Teachers"
 import Header from "./components/Header/Header"
+import Links from "./components/Links/Links"
+import Footer from "./components/Footer/Footer"
+import "./index.css"
+
 
 
 
 function App() {
   return (
+    <>
     <Router>
       <div>
         <Header/>
         <NavTabs />
+        <Links/>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/ourpiano" component={OurPiano} />
@@ -31,6 +37,9 @@ function App() {
         <Route exact path="/teachers" component={Teachers} />
       </div>
     </Router>
+    
+    <Footer/>
+    </>
   );
 }
 

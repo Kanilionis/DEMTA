@@ -1,15 +1,16 @@
 import React from "react"
-import Footer from "../components/Footer/Footer"
-import Links from "../components/Links/Links"
+import "../index.css"
 
 function Home() {
   return (
     <>
-    <Links/>
-  <div className="welcome">
-    <h2>WELCOME! </h2>
+  
+  <div className="welcome container-fluid">
+  <div className="col-lg-2 col-md-2 col-sm-2"></div>
+  <div className="col-lg-12 col-md-12 col-sm-12">
+    <h1>WELCOME! </h1>
     <h3>DEMTA was named "Local Association Of The Year" at the 2017 CSMTA convention.   </h3>
-      
+      <br></br>
     <p>DEMTA members are independent and school music teachers who work in Parker, Castle Rock, Elizabeth, Centennial, Highlands Ranch, Littleton and Aurora. We have been providing students with exceptional local music education, enriching the community through public service performances and providing teacher development since 1994. In 2014-2015 we celebrated our 20th year of music enjoyment, education and excellence in our community!</p>
 
 
@@ -20,7 +21,7 @@ function Home() {
     <p>New members who wish to participate in Festival must join DEMTA by January 31st.</p>
 
   </div>
-<Footer/>
+  </div>
     </>
   )
 }

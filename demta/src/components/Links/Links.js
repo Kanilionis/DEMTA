@@ -1,6 +1,7 @@
 import React from "react"
 import { Button, ButtonGroup } from "react-bootstrap"
 import "./links.css"
+import logo from "../../images/DEMTA-LOGO-BLUE.jpg"
 
 
 function Links() {
@@ -8,7 +9,8 @@ function Links() {
   return(
     <>
     <div className="links col-sm-12 col-md-2 col-lg-2">
-      <h3>HELPFUL LINKS</h3>
+      <img height="200" src={logo} alt="logo"/>
+      <h3 className="links-title">HELPFUL LINKS</h3>
       <ButtonGroup vertical>
   <Button variant="outline-dark" target="_blank" href="https://www.comusicteachers.net/">CMTA</Button>
   <br/>

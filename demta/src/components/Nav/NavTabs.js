@@ -14,7 +14,7 @@ function NavTabs() {
     <Navbar.Collapse id="navbar">
       <Nav className="nav-wrapper col-sm-1 col-md-12 col-lg-12" id="menu">
       <ul id="navbar" className="nav">
-      <li className="nav-item">
+      <li className="nav-item first-nav">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
@@ -75,7 +75,7 @@ function NavTabs() {
           Contact
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item last-nav">
         <Link
           to="/teachers"
           className={location.pathname === "/teachers" ? "nav-link active" : "nav-link"}
