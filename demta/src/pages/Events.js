@@ -1,4 +1,6 @@
 import React from "react"
+import Calendar from "../components/Calendar/Calendar"
+import "../index.css"
 
 function Events() {
   return (
@@ -7,8 +9,10 @@ function Events() {
       <div className="home jumbotron-fluid">
   
 
-    <h1 className="float-right display-3">Events</h1>
-    <p className="text-home"></p>
+    <h1 className="display-3">DEMTA Events</h1>
+
+    <p className="text-home">SUBJECT TO CHANGE!<br></br>Additional Date and Events Will Be Added As They Are Scheduled</p>
+    <Calendar/>
   </div>
 </div>
     </>

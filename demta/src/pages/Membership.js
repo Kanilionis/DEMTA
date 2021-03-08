@@ -9,7 +9,8 @@ function Membership() {
   
 
     <h1 className="display-3">Membership</h1>
-    <h2>BENEFITS OF MEMBERSHIP</h2>
+    <br></br>
+    <h2 >BENEFITS OF MEMBERSHIP</h2>
     <ul className="benefits">
      <li>DEMTA teachers enjoy the benefit of monthly teacher-enrichment programs.</li>
 

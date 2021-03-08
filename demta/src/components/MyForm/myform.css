@@ -1,0 +1,19 @@
+.form{
+  margin-left: 180px;
+  margin-top: 40px
+}
+
+.contact-row{
+  border: none;
+  outline: none
+}
+
+.row{
+  border: none;
+  outline: none
+}
+
+.submitBtn{
+  margin-left: 106px;
+  margin-top: 15px
+}
