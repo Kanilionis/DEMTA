@@ -42,7 +42,7 @@ function May() {
           <td >4</td>
           <td >5</td>
           <td >6
-          <p className="event-what"><strong>General Membership Meeting</strong></p><div className="event-when">9:00 am</div><div className="event-where">Parker Bible Church</div>
+          <p className="event-what"><strong>General Membership Meeting</strong></p><div className="event-when">9:00 am</div><div className="event-where">Parker Bible Church/Zoom</div>
           </td>
           <td >7</td>
           <td >8</td>

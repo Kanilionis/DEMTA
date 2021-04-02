@@ -34,7 +34,9 @@ function June() {
           <td >2</td>
           <td >3</td>
           <td >4</td>
-          <td >5</td>
+          <td >5
+          <p className="event-what"><strong>DEMTA Ensemble Recital</strong></p><div className="event-when"></div><div className="event-where">Parker Bible Church</div>
+          </td>
         </tr>
         <tr>
           <td >6</td>

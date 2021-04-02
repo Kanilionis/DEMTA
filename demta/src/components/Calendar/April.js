@@ -54,9 +54,13 @@ function April() {
           <td >11</td>
           <td >12</td>
           <td >13</td>
-          <td >14</td>
+          <td >14
+          <p className="event-what"><strong>CC</strong></p><div className="event-where">Shalom Park</div><div className="event-when">*deadline for entries 4/7</div>
+          </td>
           <td >15</td>
-          <td >16</td>
+          <td >16
+          <p className="event-what"><strong>DEMTA Young Artist Recital</strong></p><div className="event-when">6:00 and 7:15pm</div><div className="event-where">Parker Bible Church</div>
+          </td>
           <td >17</td>
         </tr>
         <tr>
@@ -66,13 +70,17 @@ function April() {
           <td >21</td>
           <td >22</td>
           <td >23</td>
-          <td >24</td>
+          <td >24
+          <p className="event-what"><strong>DEMTA Honors Concerts</strong></p><div className="event-when"></div><div className="event-where">Parker Bible Church</div>
+          </td>
         </tr>
         <tr>
           <td >25</td>
           <td >26</td>
           <td >27</td>
-          <td >28</td>
+          <td >28
+          <p className="event-what"><strong>CC at Shalom Park</strong></p><div className="event-when"></div><div className="event-where">*deadline for entries 4/21</div>
+          </td>
           <td >29</td>
           <td >30</td>
           <td ></td>
