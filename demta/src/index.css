@@ -16,6 +16,12 @@
   margin-left: 180px;
 }
 
+@media only screen and (max-width: 700px){
+  .about-text{
+    margin:auto
+  }
+}
+
 .performance{
   text-align: center;
 }
@@ -42,14 +48,29 @@
   margin-top: 40px;
   margin-left: 180px
 }
+@media only screen and (max-width: 700px){
+  .welcome{
+    margin:auto
+  }
+}
 
 .benefits{
   margin-left: 20px
+}
+@media only screen and (max-width: 700px){
+  .benefits{
+    margin:auto
+  }
 }
 
 .membership{
   margin-left: 200px;
   margin-top: 40px
+}
+@media only screen and (max-width: 700px){
+  .membership{
+    margin:auto
+  }
 }
 
 .membership h2{
@@ -61,6 +82,11 @@
   margin-top: 40px;
   margin-left: 180px
 }
+@media only screen and (max-width: 700px){
+  .our-piano{
+    margin:auto
+  }
+}
 
 .text-home{
   text-align: center;
@@ -71,6 +97,11 @@
 .festival-carousel{
   font-size: 10px;
   margin-top: 40px;
+}
+@media only screen and (max-width: 700px){
+  .festival-carousel{
+    margin:auto
+  }
 }
 
 .festival-carousel img{
@@ -87,6 +118,11 @@
   margin-right: 40px;
   text-align: center;
 }
+@media only screen and (max-width: 700px){
+  .festival-text{
+    margin:auto
+  }
+}
 
 .text-alert{
   text-align: center;
@@ -98,5 +134,9 @@
   color: blue;
   font-size: 16px;
   text-align: center;
+}
+
+.logo-image{
+  overflow: hidden;
 }
 

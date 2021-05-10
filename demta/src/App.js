@@ -14,6 +14,7 @@ import Header from "./components/Header/Header"
 import Links from "./components/Links/Links"
 import Footer from "./components/Footer/Footer"
 import "./index.css"
+import logo from "./images/DEMTA-LOGO-BLUE.jpg"
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <div>
         <Header/>
         <NavTabs />
+        
         <Links/>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />

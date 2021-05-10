@@ -1,0 +1,17 @@
+.sort{
+  color: black;
+  border: 1px black solid;
+  text-align: center;
+  cursor: pointer
+}
+
+.teacher-table td{
+  height: 50px;
+  text-align: center;
+  border: 1px black solid
+}
+
+table{
+  margin-left: 300px
+}
+

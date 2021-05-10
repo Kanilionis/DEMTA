@@ -8,7 +8,7 @@ function Header() {
     <div className="container-fluid">
     <div className="header row">
       <div className="col-2"></div>
-      <img className="demta-banner col-8" width={1000} src={banner} alt="demta banner"></img>
+      <img className="demta-banner col-lg-8 col-sm-12" width={1000} src={banner} alt="demta banner"></img>
       <div className="col-2"></div>
     </div>
     </div>
