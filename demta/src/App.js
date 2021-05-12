@@ -28,7 +28,7 @@ function App() {
         <NavTabs />
         
         <Links/>
-        <Route exact path="/DEMTA" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/ourpiano" component={OurPiano} />
         <Route exact path="/membership" component={Membership} />
